@@ -1,24 +1,18 @@
 # Multimodal
 
-# Joint Sensor Placement Optimization and Source Location Representation for Radio Map Construction Under Extremely Sparse Observations
+# Practical Radio Environment Map Construction from Aerial Images: A Multimodal Method
 
 ## 🚀 Project Overview
 
-Sampling-based construction of radio environment maps often underperforms because observation points are limited in number and sparsely distributed. Here, we propose a radio map construction framework that jointly optimizes sensor deployment and models source-location uncertainty. The proposed method does not require a larger pool of candidate samples and represents transmitter locations as heatmaps.
+Existing REM construction methods usually assume ideal prior information and propagation environments, making them difficult to adapt to data distortion and environmental variations in practical scenarios. To this end, this paper proposes a real-world REM construction method that uses practically available multi-source heterogeneous data, in-cluding aerial images and sensing observations, to obtain REMs under non-ideal environmental priors and channel conditions. 
 
-<img src="overview.png">
-
-<img src="framework.png">
+<img src="model.png">
 
 ## 📂 Datasets
 
-### 🔹 RadioMapSeer
-
-- [Official Data](https://ieee-dataport.org/documents/dataset-pathloss-and-toa-radio-maps-localization-application)
-
 ### 🔹 Cellular Radio
 
-stored in Folder 📂(measurement_data)
+stored in Folder 📂(data) including Air and Land scenario
 
 ## 📥 Stage Outputs
 
@@ -31,6 +25,8 @@ stored in Folder 📂(measurement_data)
 
 Our work is based on:
 
+- [REM-NET+](https://github.com/YNUniversityCQ/REM-NET)
+- [DRSformer]([https://github.com/cschenxiang/DRSformer)
 - [REM-NET+](https://github.com/YNUniversityCQ/REM-NET)
 
 ---
