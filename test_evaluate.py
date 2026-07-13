@@ -11,8 +11,6 @@ from lib1 import loaders, modules
 from scipy.ndimage import gaussian_filter
 from torch.utils.data import Dataset, DataLoader
 
-from lib1.dcnunet import SimpleUNet
-
 def masked_ssim(img1, img2, valid_mask):
     img1 = img1.astype(np.float64)
     img2 = img2.astype(np.float64)
@@ -55,13 +53,9 @@ def masked_ssim(img1, img2, valid_mask):
 torch.cuda.set_device(0)
 device = torch.device("cuda")
 
-# model = modules.Multi_model()
-# model.load_state_dict(torch.load('model_result/main_model.pt'))
-# model.to(device)
-
-model = SimpleUNet(in_ch=4, out_ch=1, mode='unet', channel=32, depth=5, img_size=512)
+model = modules.Multi_model()
 model.load_state_dict(torch.load('model_result/main_model.pt'))
-model.cuda()
+model.to(device)
 
 def main_worker():
 
