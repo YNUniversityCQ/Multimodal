@@ -14,7 +14,7 @@ Existing REM construction methods usually assume ideal prior information and pro
 
 stored in Folder 📂(data) including Air and Land scenario
 
-## 📥 Stage Outputs
+## 📥 Model Weight
 
 - **heatmap** → Extract to `/heatmap` ([Baidu Netdisk Download](https://pan.baidu.com/s/14bsL4Ws-sHg1-lLEYB-o0g?pwd=spbd))
 - **position_r** → Extract to `/position_r` ([Baidu Netdisk Download](https://pan.baidu.com/s/14bsL4Ws-sHg1-lLEYB-o0g?pwd=spbd))
@@ -26,8 +26,8 @@ stored in Folder 📂(data) including Air and Land scenario
 Our work is based on:
 
 - [REM-NET+](https://github.com/YNUniversityCQ/REM-NET)
-- [DRSformer]([https://github.com/cschenxiang/DRSformer)
-- [REM-NET+](https://github.com/YNUniversityCQ/REM-NET)
+- [DRSformer](https://github.com/cschenxiang/DRSformer)
+- [SAM](https://github.com/facebookresearch/segment-anything)
 
 ---
 
