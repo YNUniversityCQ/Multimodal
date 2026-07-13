@@ -14,11 +14,6 @@ Existing REM construction methods usually assume ideal prior information and pro
 
 stored in Folder 📂(data) including Air and Land scenario
 
-## 📥 Model Weight
-
-- **heatmap** → Extract to `/heatmap` ([Baidu Netdisk Download](https://pan.baidu.com/s/14bsL4Ws-sHg1-lLEYB-o0g?pwd=spbd))
-- **position_r** → Extract to `/position_r` ([Baidu Netdisk Download](https://pan.baidu.com/s/14bsL4Ws-sHg1-lLEYB-o0g?pwd=spbd))
-
 ---
 
 ## 🙌 Acknowledgments
